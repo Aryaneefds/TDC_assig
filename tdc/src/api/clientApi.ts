@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "process.env.api_url",
+    baseURL: "https://tdc-assig.onrender.com/api"
 })
 
