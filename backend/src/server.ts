@@ -30,8 +30,7 @@ app.get("/", (req,res) => {
 
 
 app.get("/test-ai", async (req, res) => {
-    console.log("Ai")
-    console.log("API KEY:", process.env.GEMINI_API_KEY);
+  
   const response =
     await ai.models.generateContent({
       model: "gemini-2.5-flash",
